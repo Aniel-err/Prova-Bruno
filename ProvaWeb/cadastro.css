@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;	
+}
+
+#menu{
+    background-color: #afafaf;
+    display: flex;
+    justify-content:right ;
+    padding: 10px;
+}
+
+#menu a{
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+#menu a:hover{
+    color: #ffffff; 
+    background-color: #616161;
+}
+
+
+
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.form-cadastro h2 {
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-cadastro label {
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+.form-cadastro input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.telefone-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.telefone-container div {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.botoes button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#salvar {
+    background-color: #28a745;
+    color: white;
+}
+
+#limpar {
+    background-color: #dc3545;
+    color: white;
+}
+
+#nome, #email{
+    width: 700px;
+} 
+
+
